@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/tractor"
+        android:icon="@drawable/baseline_agriculture_24"
+        android:title="tractor"
+        app:showAsAction="always"/>
+    <item android:id="@+id/train"
+        android:title="train"
+        android:icon="@drawable/baseline_train_24"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu"
+        android:title="menu"
+        android:icon="@drawable/baseline_menu_24"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/bike"
+                android:title="bike"
+                app:showAsAction="always"
+                />
+            <item android:id="@+id/bus"
+                android:title="bus"
+                app:showAsAction="always"
+                />
+        </menu>
+    </item>
+
+
+</menu>
