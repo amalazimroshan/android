@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/baseline_person_24"
+        android:title="about"
+        app:showAsAction="ifRoom" />
+
+    <group>
+        <item android:title="item1"
+            android:id="@+id/item1"
+            />
+        <item android:title="item2"
+            android:id="@+id/item2"/>
+    </group>
+
+</menu>
